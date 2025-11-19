@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-family: "Poppins", sans-serif;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #311f09;
+  font-weight: 400;
+  font-size: 18px;
+  transition: 0.3s;
+}
+nav ul li a:hover{
+  color: #d6791f;
+
+}
+nav .btns button {
+  padding: 10px 25px;
+  border-radius: 133px;
+  border: none;
+  background: #3fa72f;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+nav .btns {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 40px;
+  font-family: "Raleway", sans-serif;
+}
+.hero h3 {
+  width: 152px;
+  text-align: center;
+  padding: 6px 20px;
+  border-radius: 126px;
+  color: #ff8a00;
+  background-color: #eae30f69;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.hero h1 {
+  width: 288px;
+  font-weight: 700;
+  font-size: 80px;
+  color: #311f09;
+  margin-bottom: 40px;
+}
+.hero p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  width: 335px;
+  color: #5c4529;
+  margin-bottom: 70px;
+}
+.hero .btns button {
+  padding: 15px 35px;
+  border-radius: 162px;
+  border: none;
+  background: #3fa72f;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 10px gray;
+}
+.hero .btns button:hover {
+  background: #ff8a00;
+  box-shadow: 0px 5px 10px gray;
+}
+main .delizioso {
+  background: #f0fff0d5;
+}
+.delizioso .container {
+  display: flex;
+  padding: 50px 0px;
+  scale: 0.9;
+  justify-content: space-between;
+  gap: 50px;
+  margin: auto;
+  margin-left: -70px;
+  margin: auto;
+}
+.delizioso .container h1 {
+  width: 408px;
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-size: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.delizioso .container p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #5c4529;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 80px;
+}
+.delizioso .container button {
+  background-color: #ff8a00;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 25px;
+  border-radius: 162px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 1px 10px gray;
+  transition: all 0.3s ease-in-out;
+}
+.delizioso button:hover {
+  box-shadow: 0px 5px 10px gray;
+  scale: 1.01;
+}
+
+/* MAIN */
+.menu {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.menu h1 {
+  text-align: center;
+  font-weight: 600;
+  color: #311f09;
+  font-size: 80px;
+  font-family: "Tinos", serif;
+  margin-bottom: 90px;
+}
+.menu .btns {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.menu .btns button {
+  padding: 15px 50px;
+  border-radius: 162px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0px 1px 10px gray;
+  transition: all 0.3s ease-in-out;
+}
+.menu .btns button:hover {
+  box-shadow: 0px 5px 10px gray;
+  background: black;
+  color: white;
+}
+.menu .box {
+  width: 344px;
+  text-align: center;
+  background: #d3d0cc29;
+  border-radius: 70px;
+  font-family: "Poppins", sans-serif;
+  height: 617px;
+  position: relative;
+}
+
+.menu .box h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.menu .box p {
+  font-weight: 400;
+  font-size: 14px;
+  width: 287px;
+  margin: auto;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+.menu .box .btns {
+  display: flex;
+  align-items: center;
+}
+.menu .box .btns button {
+  background: #ff8a00;
+  padding: 15px 25px;
+  color: white;
+  margin-bottom: 0px;
+}
+.menu .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 0px 29px;
+}
+.menu .box::after {
+  content: "";
+  inset: 0;
+  position: absolute;
+  background: linear-gradient(90deg, #ff7f50, #ff1493);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: all 0.5s ease-in-out;
+  border-radius: 62px;
+  z-index: -1;
+}
+.menu .box:hover::after {
+  transform: scaleY(1);
+}
+.table .container {
+  margin: auto;
+}
+.table .container {
+  display: flex;
+  /* background: #fff4e7; */
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px;
+  scale: 0.99;
+  margin-bottom: 200px;
+}
+.table .text {
+  margin-top: 100px;
+}
+.table h1 {
+  font-weight: 700;
+  font-size: 80px;
+  width: 453px;
+  font-family: "Tinos", serif;
+  margin-top: -180px;
+  margin-bottom: 50px;
+}
+.table p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #5c4529;
+  width: 433px;
+  line-height: 200%;
+  margin-bottom: 100px;
+}
+.table button {
+  padding: 20px 45px;
+  border-radius: 162px;
+  background: #ff8a00;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0px 1px 10px gray;
+}
+.table button:hover {
+  box-shadow: 0px 5px 10px gray;
+}
+
+.chefs h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 80px;
+  font-family: "Tinos", serif;
+  color: #311f09;
+  margin-bottom: 150px;
+}
+.chefs .box {
+  width: 344px;
+  text-align: center;
+}
+.chefs .box img {
+  margin-bottom: 30px;
+}
+.chefs .box h2 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #311f09;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+.chefs .box h3 {
+  font-weight: 400;
+  font-size: 25px;
+  color: #a08d76;
+  font-family: "Poppins", sans-serif;
+}
+.chefs .cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+.chefs button {
+  background: #ff8a00;
+  padding: 15px 55px;
+  border-radius: 162px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  box-shadow: 0px 1px 10px gray;
+  margin: auto;
+}
+.from .container {
+  background-image: url(./imgs/Background.png);
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.from h1 {
+  font-weight: 700;
+  font-size: 80px;
+  font-family: "Tinos", serif;
+  margin-top: 200px;
+  line-height: 2.5;
+}
+.from h2 {
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+.from .text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.from .btns button {
+  padding: 15px 35px;
+  border-radius: 162px;
+  border: none;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 10px gray;
+  margin-bottom: 110px;
+  gap: 20px;
+}
+.from .btns button:hover {
+  background: #ff8a00;
+  box-shadow: 0px 5px 10px gray;
+}
+
+footer {
+  background: #311f09;
+}
+footer .container {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 50px;
+}
+.box1 img {
+  margin-bottom: 40px;
+}
+.box1 p {
+  color: #e3e2e0;
+  font-weight: 400;
+  font-size: 20px;
+  width: 352px;
+  font-family: "Poppins", sans-serif;
+  line-height: 200%;
+  margin-bottom: 40px;
+}
+.box1 .icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.box2 h2 {
+  color: #ff8a00;
+  margin-bottom: 50px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #d6791f;
+}
+.box3 h2 {
+  color: #ff8a00;
+  margin-bottom: 50px;
+}
+.box3 ul {
+  color: #e3e2e0;
+  text-decoration: none;
+  list-style: none;
+  line-height: 200%;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.box4 h2 {
+  color: #ff8a00;
+  margin-bottom: 50px;
+}
+.box4 p {
+  color: #e3e2e0;
+  width: 280px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.box4 h3 {
+  color: #e3e2e0;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.box4 h4 {
+  color: #e3e2e0;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+footer h2 {
+  text-align: center;
+  color: white;
+}
+
+/* @MEDIA */
+
+@media (max-width: 600px) {
+  nav ul,
+  a {
+    display: none;
+  }
+  nav {
+    justify-content: space-between;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero img {
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .delizioso .container {
+    flex-direction: column-reverse;
+  }
+  .delizioso .container img {
+    text-align: center;
+    scale: 0.8;
+  }
+  .delizioso .text {
+    margin: 0px 80px;
+  }
+  .menu .btns {
+    flex-wrap: wrap;
+  }
+  .menu .cards {
+    flex-wrap: wrap;
+    width: 598px;
+  }
+  .table {
+    flex-direction: column-reverse;
+    background: white;
+  }
+  .table img {
+    width: 80%;
+  }
+  .chefs .cards {
+    flex-wrap: wrap;
+  }
+  .from .container {
+    width: 400px;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    margin-left: -30px;
+  }
+}
